@@ -1,0 +1,22 @@
+{
+  "name": "ATELIER B2 — DELF フランス語トレーナー",
+  "short_name": "ATELIER B2",
+  "description": "DELF B2合格に向けて語彙・読解・聴解・作文・口頭表現を鍛える学習アプリ",
+  "lang": "ja",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f0e7",
+  "theme_color": "#1d563e",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ],
+  "shortcuts": [
+    {"name":"語彙を学ぶ","url":"./index.html#vocab"},
+    {"name":"聴解を練習","url":"./index.html#listen"},
+    {"name":"口頭練習","url":"./index.html#speak"}
+  ]
+}
